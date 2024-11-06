@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitClub</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" 
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+</head>
+<body>
+  <header>
+    <!--navbar-->
+    <nav class="navbar navbar-dark navbar-expand-lg bg-dark fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="./assets/logo test.png" alt="Logo FitClub"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+
+          <!--itens navbar-->
+          <div class="offcanvas-body" id="menu">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#program">Program</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#service">Service</a>
+              </li>
+            
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#community">Community</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#join now">
+              </li>
+              <button class="botao-home-1">Join Now</button>
+        </div>
+       </div>
+      </div>
+
+    </nav>
+  </header>
+
+  <!--INÍCIO DA PÁGINA PRINCIPAL-->
+  <main class="apresentacao">
+
+ <!--PRIMEIRA SEÇÃO DO SITE-->
+     <section class="apresentacao__conteudo d-flex" id="home">
+
+  <div class="texto-container">
+    <p class ="frase-1 fw-bold">BEST FITNESS IN THE TOWN</p>
+      <h1 class="apresentacao__conteudo__titulo fw-bold">MAKE YOUR BODY SHAPE</h1>
+        <p class="apresentacao__conteudo__texto"> Unleash your potencial and embark on a journey towars a stronger fitter, and more confident you. Sign up for "Make Your Body Shape" now and witness the incredible transformation your body is capable off!</p>
+        <button class="botao-home-2">Get Started</button>
+    </div>
+    
+<!--imagem da home-->
+  <div class="img-header">
+      <img src="assets/header.png" class="img-fluid" alt="Imagem de homem segurando halteres">
+  </div>
+</section>
+
+<!--SEGUNDA SEÇÃO DO SITE-->
+<section class="apresentacao__programa" id="program">
+  <h1 class="texto_programa">EXPLORE OUR PROGRAM</h1>
+  
+   <!--container dos cards da segunda seção-->
+  <div class="container__card row justify-content-center g-3">
+
+    <!--card 1-->
+    <div class="card reveal"  style="width: 18rem;">
+      <div class="card-body text-left">
+        <img class="card-img-top icon" src="assets/icons8-força-48.png" alt="icone força">
+        <div class="card-body">
+          <h5 class="card-title">Strength</h5>
+          <p class="card-text">Embrace the essence of strenght as we delve into its various dimensions physical, mental and emotional.</p>
+          <a href="#" class="btn" style="color: white;">Join Now</a>
+        </div>
+      </div>
+    </div>
+
+   <!--card 2-->
+   <div class="card reveal" style="width: 18rem;">
+    <div class="card-body text-left">
+      <img class="card-img-top icon" src="assets/icons8-coração-com-pulso-64.png" alt="icone coração">
+      <div class="card-body">
+        <h5 class="card-title">Physical Fitness</h5>
+        <p class="card-text">It encompasses a range of activities that improve health, strength, flexibility, and overall well-being.</p>
+        <a href="#" class="btn" style="color: white;">Join Now</a>
+      </div>
+    </div>
+  </div>
+    
+
+       <!--card 3-->
+       <div class="card reveal style="width: 18rem;">
+        <div class="card-body text-left">
+          <img class="card-img-top icon" src="assets/icons8-garota-correndo-30.png" alt="icone corrida">
+          <div class="card-body">
+            <h5 class="card-title">Fat Lose</h5>
+            <p class="card-text">Through a combination of workout routines and expert guidance, we'll empower you to reach your goals.</p>
+            <a href="#" class="btn" style="color: white;">Join Now</a>
+          </div>
+        </div>
+      </div>
+  
+       <!--card 4 -->
+       <div class="card reveal" style="width: 18rem;">
+        <div class="card-body text-left">
+          <img class="card-img-top icon" src="assets/icons8-cesta-64.png" alt="icone cesta">
+          <div class="card-body">
+            <h5 class="card-title">Weight Gain</h5>
+            <p class="card-text">Designed for individuals, our program offers an effective approach to gaining weight in a sustainable manner.</p>
+            <a href="#" class="btn" style="color: white;">Join Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  </main>
+
+
+<!--TERCEIRA SEÇÃO DO SITE-->
+<section class="terceira_secao" id="service">
+
+  <!--primeira imagem da seção-->
+  <div class="img_terceira_secao_1">
+    <img src="assets/class-1.jpg" class="imagem-principal">
+
+    <!--imagem sobreposta-->
+    <img src="assets/class-2.jpg" class="imagem-sobreposta">
+  </div>
+
+  <!--textos na lateral das imagens sobrepostas-->
+  <div class="texto_terceiraseçao">
+<h2>THE CLASS YOU WILL GET HERE</h2>
+<p>Led by our team of expert and motivacional instructors, "The Class You Will Get Here is a high-energy, results-driven session that combines a perfect blend of cardio, strength training, and functional exercises. Each class is carefully curated to keep you engaged and challegend ensuring you never hit a plateau in your fitness endeavors.</p>
+
+<!--botão Book a Class-->
+<button class="botao_terceirasecao">Book a Class</button>
+  </div>
+</section>
+
+<!--JOIN US-->
+<section class="quarta_secao">
+<div class="titulo_quartasecão">
+  <h1>WHY JOIN US?</h1>
+
+  <!--textos e imagem da quarta seção-->
+<div class="texto_quartasecao">
+  <p> Our diverse membershipbase creates a friendly and supportive</p>
+    <p> atmosphere, where you can make friends and stay motivated.</p>
+  </div>
+</div>
+
+<div class="img_quartasecao">
+  <img src="assets/join.jpg" alt="Pessoas em espaço fechado em bicicletas ergométricas">
+</div>
+  </main>
+  </section>
+
+<!--PRICING PLAN-->
+<section class="quintasecao" id="about">
+  <div class="texto_quintasecao">
+    <h1>OUR PRICING PLAN</h1>
+    <div>Our pricing plan comes with various membership tiers, each tailored to 
+      <p>cater to different preferences and fitness aspirations.</p>
+
+    <!--cards sexta seção-->
+    <div class="container_cards_quintasecao">
+
+      <!--card 1-->
+      <div class="card reveal" style="width: 18rem;">
+        <div class="card-body text-left">
+          <h6 class="card-subtitle mb-2">Basic Plan</h6>
+          <h5 class="card-subtitle">$16</h5>
+          <h4>....................................</h4>
+          <h3><img src="assets/icon-lista.png" alt="Check Icon" class="check-icon"> Smart workouts</h3>
+          <h3><img src="assets/icon-lista.png" alt="Check Icon" class="check-icon"At home workouts>At home workouts</h3>
+
+          
+          <a href="#" class="btn" style="color: white;">Join Now</a>          
+    </div>
+      </div>
+
+    <!--card 2-->
+    <div class="card reveal" style="width: 18rem;">
+      <div class="card-body text-left">
+        <h6 class="card-subtitle mb-2">Weekly Plan</h6>
+        <h5 class="card-title">$32</h5>
+        <h4>...................................</h4>
+        <h3><img src="assets/icon-lista.png" alt="ícone check" class="check-icon"> PRO Gyms</h3>
+          <h3><img src="assets/icon-lista.png" alt="ícone check" class="check-icon">Smart workout plan</h3>
+          <h3><img src="assets/icon-lista.png" alt="ícone" class="check-icon">At home workouts</h3>
+      
+        <a href="#" class="btn" style="color: white;">Join Now</a>
+      </div>
+    </div>
+
+    <!--card 3-->
+    <div class="card reveal" style="width: 18rem;">
+      <div class="card-body text-left">
+        <h6 class="card-subtitle mb-2">Monthly Plan</h6>
+        <h5 class="card-title">$48</h5>
+        <h4>...................................</h4>
+        <h3><img src="assets/icon-lista.png" alt=" ícone check" class="check-icon"> ELITE Gyms</h3>
+          <h3><img src="assets/icon-lista.png" alt="ícone check class="check-icon">PRO Gyms</h3>
+          <h3><img src="assets/icon-lista.png" alt="ícone check" class="check-icon">Smart workout plain</h3>
+          <h3><img src="assets/icon-lista.png" alt="ícone check" class="check-icon">At home workouts</h3>
+          <h3><img src="assets/icon-lista.png" alt="ícone check" class="check-icon">Personal Training</h3>
+        <h3></h3>
+        <a href="#" class="btn" style="color: white;">Join Now</a>
+      </div>
+    </div>
+     
+</section>
+
+<!--MEMBER REVIEW -->
+<section class="member-review" id="community">
+  <!-- porção superior -->
+  <div class="area-superior">
+    <!-- imagem aspas -->
+    <div class="img-aspas">
+      <img src="assets/icons8-aspas-direitas-48.png">
+    </div>
+
+    <!-- título e texto -->
+    <div class="conteudo-review">
+      <h1>MEMBER REVIEW</h1>
+      <p>What truly sets this gym apart is their expert team of trainers. The trainers are knowledgeable, approachable, and genuinely invested in helping members achieve their fitness goals. They take the time to understand individual needs and create personalized workout plans, ensuring maximum results and safety.</p>
+    </div>
+  </div>
+
+  <!-- porção inferior -->
+  <div class="area-inferior">
+    <div class="img-membro">
+      <img src="assets/member.jpg" alt="Member Photo">
+    </div>
+    <div class="info-membro">
+      <p class="nome-membro">John Doe</p>
+      <p class="profissao-membro">Software Developer</p>
+    </div>
+  </div>
+</section>
+
+
+<!-- RODAPÉ -->
+<footer>
+  <section class="rodape">
+    <!-- coluna esquerda -->
+    <div class="coluna-esquerda">
+      <div class="img-rodape">
+        <img src="assets/logo test.png" alt="Logo FitClub">
+      </div>
+      <div class="texto-rodape">
+        <p>Take the first step towards a healthier, stronger you with our beatable pricing plans. Let's sweat, achieve, and conquer together!</p>
+      </div>
+
+      <div class="redes-sociais">
+        <a href="https://www.facebook.com/?locale=pt_BR" aria-label="Facebook"><img src="assets/icons8-facebook-novo-50.png" alt="Logo Facebook"/></a>
+        <a href="https://www.instagram.com/" aria-label="Instagram"><img src="assets/icons8-instagram-50 (1).png" alt="Logo Instagram"></img></a>
+        <a href="https://x.com/i/flow/login" aria-label="X"><img src="assets/icons8-x-50.png" alt="Logo X"></i></a>
+      </div>
+    </div>
+
+    <!-- coluna direita -->
+    <div class="coluna-direita">
+      <div class="informacoes-company">
+        <h1>Company</h1>
+        <p>Business</p>
+        <p>Franchise</p>
+        <p>Partnership</p>
+        <p>Network</p>
+      </div>
+
+      <div class="informacoes-sobre">
+        <h1>About Us</h1>
+        <p>Blogs</p>
+        <p>Security</p>
+        <p>Careers</p>
+      </div>
+
+      <div class="informacoes-contato"> 
+        <h1>Contact</h1>
+        <p>Contact Us</p>
+        <p>Privacy Policy</p>
+        <p>Terms & Conditions</p>
+        <p>BMI Calculator</p>
+      </div>
+    </div>
+  </section>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+    crossorigin="anonymous"></script>
+    <script src="auto.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,540 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  height: 100vh;
+  box-sizing: border-box;
+  background-color: #111317;
+}
+
+.apresentacao_geral {
+  margin: 10%;
+  display: flex;
+}
+
+.apresentacao__conteudo {
+  margin: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+
+.frase-1 {
+  color: #f9ac54;
+  font-weight: 600;
+}
+
+.botao-home-1 {
+  background-color: #f9ac54;
+  color: white;
+  width: 100px;
+  height: 40px;
+  border-radius: 7%;
+}
+
+.botao-home-2 {
+  background-color: #f9ac54;
+  color: #1f2125;
+  width: 100px;
+  height: 48px;
+  border-radius: 7%;
+}
+
+.apresentacao__conteudo {
+  box-sizing: content-box;
+  margin-bottom: 40px;
+}
+
+.apresentacao__conteudo__titulo {
+  font-family: "Poppins", sans-serif;
+  font-size: 90px;
+  font-weight: 400px;
+}
+
+.apresentacao__conteudo__texto {
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+}
+
+.container {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.texto-container {
+  max-width: 100%; /* Define a largura máxima do texto */
+  align-items: center;
+}
+
+.apresentacao_programa {
+  padding: 2rem;
+  gap: 2rem;
+}
+
+.container__card {
+  margin: 10px;
+  gap: 10px;
+  max-width: 100%;
+  padding: 50;
+}
+
+.card {
+  background-color: #1f2125;
+  color: white;
+  width: 200px; /* largura do card */
+  height: 255px; /* altura do card para que fique quadrado */
+  padding: 15px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: all 0.3s ease; /* Transição suave */
+  border: 2px solid transparent; /* Borda padrão invisível */
+}
+
+.card .icon {
+  width: 50px;
+  border-radius: 50px;
+  height: auto;
+  margin-bottom: 15px;
+  margin-top: 10px;
+  justify-content: left;
+}
+
+.card-title {
+  font-size: 27px;
+  justify-content: left;
+}
+
+.card-text {
+  margin-top: 20px;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  align-text: justify;
+}
+
+.card-body {
+  position: relative;
+}
+
+.icon {
+  /*dimensões dos icones em relação a tamanho e posição no card*/
+  width: 30px; /* tamanho do ícone */
+  height: auto; /* proporção do ícone */
+  margin-bottom: 5px; /* espaço entre o ícone e o título */
+}
+
+.btn {
+  background-color: #f9ac54;
+  color: white;
+  width: 100px;
+  height: 40px;
+  align-items: end;
+  border-radius: 7%;
+}
+
+.texto {
+  color: white;
+  display: flex;
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  font-weight: 400px;
+  margin: 10%;
+}
+
+.texto_programa {
+  text-align: left;
+  margin: 10%;
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.img-header {
+  width: 70%;
+  margin-left: 50px;
+}
+
+.card-img-top {
+  font-family: "Poppins", sans-serif;
+  width: 50px; /* tamanho do ícone no topo do card */
+}
+
+.btn {
+  margin-top: 5px;
+  padding: 5px 5px;
+  margin-bottom: 5px;
+}
+
+.terceira_secao {
+  display: flex;
+  margin: 8%;
+  margin-bottom: 350px;
+  justify-content: center;
+  align-items: center;
+  gap: 5px; /*espaço entre a div com imagens e texto da terceira seção*/ /* altura total da tela */
+  position: relative; /* necessário para posicionar a imagem sobreposta */
+}
+
+.img_terceira_secao_1 {
+  position: relative; /* define o contêiner como referência para o posicionamento absoluto */
+}
+
+.imagem-principal {
+  max-width: 100%;
+  height: auto;
+}
+
+.imagem-sobreposta {
+  position: absolute;
+  left: -50px; /* controle da distância horizontal da sobreposição */
+  top: 80%; /* centraliza verticalmente */
+  transform: translateY(-50%); /* centraliza a sobreposição verticalmente */
+  width: 70%; /* tamanho da imagem sobreposta */
+}
+
+.texto_terceiraseçao {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  padding: 10px;
+  width: 35%;
+  margin-left: 20px;
+}
+
+.botao_terceirasecao {
+  color: white;
+  background-color: #f9ac54;
+  width: 150px;
+  height: 48px;
+  border-radius: 7%;
+}
+
+.quarta_secao {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 30vh;
+  width: 100%;
+}
+
+.titulo_quartasecão h1,
+.texto_quartasecao p {
+  color: white; 
+  margin-top: 30%;
+  margin-bottom: 30%;
+  text-align: center; /* texto centralizado dentro da div */
+  margin: 10px 0; /* espaçamento vertical entre os elementos */
+}
+
+.img_quartasecao {
+  display: flex;
+  margin-top: 3%;
+  justify-content: center; /* imagem horizontalmente */
+  align-items: center; /* centraliza verticalmente */
+  height: 73vh; /* altura do contêiner */
+}
+
+.img_quartasecao img {
+  max-width: 80%; /* largura máxima da imagem */
+  height: auto; /* mantendo a proporção da imagem */
+  display: block; /* imagem seja tratada como um bloco */
+  margin: 0 auto; /* centraliza a imagem no contêiner */
+}
+
+
+
+.quinta_secao {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 30vh;
+  width: 100%;
+}
+
+.titulo_quintasecão h1,
+.texto_quintasecao p {
+  color: white; 
+  text-align: center; 
+  margin: 10px 0;
+}
+
+.card_quintasecao {
+  width: 300px; /*largura do card */
+  padding: 100px;
+  background-color: #1f2125;
+  color: white;
+  text-align:justify; /*centraliza o conteúdo do card */
+}
+
+.quintasecao {
+  margin-top: 15%;
+  padding: 100px;
+  color: white;
+  text-align: center; /*centraliza o conteúdo do card */
+}
+
+.container_cards_quintasecao {
+  display: flex;
+  font-family: "Poppins", sans-serif;
+  justify-content: center; /* centraliza os cards na tela */
+  flex-wrap: wrap; 
+  margin-top: 20px; /
+}
+
+.card {
+  width: 300px;
+  height: 400px;
+  margin: 10px; /* margem em torno do card */
+  width: 18rem; /* largura fixa para os cards */
+  flex: 0 0 auto; /* para os cards não expandirem além de seu tamanho */
+  text-align: justify;
+}
+
+.card h3{
+  font-size: 15px;
+}
+
+.card-body {
+  padding: 20px;
+  justify-content: left;
+}
+
+.members-review-transparent {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  padding: 100px;
+  background-color: #1f2125;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.icon-aspas img {
+  width: 65px; /* tamanho da imagem */
+  height: 65px; /* tamanho da imagem */
+}
+
+.member-review {
+  width: 100vw; /* largura total da viewport */
+  margin: 0 auto; /* sem  margem lateral */
+  padding: 10%; /* definindo espaçamento interno */
+  font-family: "Poppins", sans-serif;
+  color: white;
+  background-color: #1f2125;
+  box-sizing: border-box; 
+}
+
+.member-review h1, 
+.member-review p {
+  color: white;
+}
+
+/* porção superior*/
+.area-superior {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.img-aspas {
+
+  align-self: flex-start; /* alinhando a imagem das aspas*/
+}
+
+.conteudo-review h1 {
+  font-size: 1.5em;
+  margin: 0;
+  color: white;
+}
+
+.conteudo-review p {
+  font-size: 1em;
+  color: #666;
+  margin-top: 5px;
+}
+
+/* porção Inferior */
+.area-inferior {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.img-membro img {
+  width: 80px; /* tamanho da imagem */
+  height: 80px;
+  border-radius: 50%; 
+  object-fit: cover;
+}
+
+.info-membro .nome-membro {
+  font-weight: bold;
+  font-size: 1.1em;
+  margin: 0;
+  color:white;
+}
+
+.info-membro .profissao-membro {
+  color: #777;
+  font-size: 0.9em;
+  margin: 0;
+}
+
+
+.rodape {
+  display: flex;
+  justify-content: space-between; /* colunas paralelamente alinhadas */
+  max-width: 1200px; /* limite da largura do rodapé */
+  margin: 0 auto; /* centralizando o rodapé */
+  padding: 20px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+/* coluna esquerda */
+.coluna-esquerda {
+  display: flex;
+  flex-direction: column; /* imagem em cima do texto */
+  align-items: center; /* conteúdo centralizado*/
+  max-width: 300px;
+}
+
+/* Imagem à esquerda */
+.img-rodape {
+  flex: 0 0 100px; /* largura fixa para a coluna da imagem */
+}
+
+
+.img-rodape img {
+  width: 160px; /* tamanho da imagem */
+  height: auto;
+  margin-top: 20%;
+  margin-bottom: 15%;
+}
+
+.texto-rodape {
+  text-align:justify;
+  font-size: 13px;
+}
+
+/* coluna direita */
+.coluna-direita {
+  display: flex;
+  gap: 50px; /* espaçamento entre as seções Company, About Us, e Contact */
+}
+
+.redes-sociais a {
+  margin-right: 30px; /* Espaço entre os ícones */
+}
+
+
+.informacoes-company,
+.informacoes-sobre,
+.informacoes-contato {
+  max-width: 200px;
+  padding: 30px;
+}
+
+.informacoes-company h1,
+.informacoes-sobre h1,
+.informacoes-contato h1 {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.informacoes-company p,
+.informacoes-sobre p,
+.informacoes-contato p {
+  margin: 5px 0;
+}
+
+
+
+/* animação para a imagem principal da terceira seção */
+.imagem-principal {
+  opacity: 0;
+  transform: translateX(-50px);
+  animation: slideIn 1.5s ease-out forwards;
+}
+
+@keyframes slideIn {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* animação: botões principais pulsam ao deslizar o mouse por cima*/
+.botao-home-1 {
+  background-color: #f9ac54;
+  color: white;
+  width: 100px;
+  height: 40px;
+  border-radius: 7%;
+  transition: transform 0.3s ease;
+}
+
+.botao-home-1:hover {
+  transform: scale(1.1);
+}
+
+.botao-home-2 {
+  background-color: #f9ac54;
+  color: white;
+  width: 100px;
+  height: 40px;
+  border-radius: 7%;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  border: 2px solid orange; /* borda laranja ao passar o mouse */
+}
+
+.botao-home-2:hover {
+  transform: scale(1.1);
+}
+
+.botao_terceirasecao {
+  background-color: #f9ac54;
+  color: white;
+  width: 150px;
+  height: 40px;
+  border-radius: 7%;
+  transition: transform 0.3s ease;
+}
+
+.botao_terceirasecao:hover {
+  transform: scale(1.1);
+}
+
+/* animação texto da seção "WHY JOIN US"*/
+/* fade-in */
+@keyframes fadeIn {
+  0% {
+    opacity: 0; /* Começa invisível */
+  }
+  100% {
+    opacity: 1; /* Fica completamente visível */
+  }
+}
+
+#why-join-us h2, #why-join-us p {
+  animation: fadeIn 2s ease-in-out; /* Aplica a animação fadeIn com duração de 2 segundos */
+}
+
