@@ -1,5 +1,5 @@
 # DesafioFitClub
-Desenvolvimento de aplicação web chamada "FitClub" utilizando tecnologias como HTML, CSS, Bootstrap, JavaScript e técnicas de responsividade para garantir uma experiência de usuário mais fluida.
+ Aplicação chamada "FitClub" para desafio na criação de site com o uso de ferramentas básicas de desenvolvimento web, aplicando responsividade e dinamismo à página.
 
 # Sobre a Aplicação
 Trata-se de uma aplicação onde os usuários podem conhecer os serviços oferecidos dentro do mundo fitness, conhecendo diferentes planos e benefícios que se adequem às suas necessidades. O objetivo principal do site é oferecer um espaço digital para que as pessoas possam conhecer e se inscrever em programas de treinamento físico, melhorar sua qualidade de vida e alcançar seus objetivos de saúde de forma fácil e acessível.
